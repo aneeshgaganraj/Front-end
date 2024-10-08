@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    background-color: orange;
+    font-style: italic;
+}
+.container img{
+    height: 150px;
+    width: 150px;
+}
+img{
+    height: 500px;
+    width: 500px;
+}

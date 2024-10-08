@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*Navbar Section*/
+.navbar{
+  box-shadow: 10px 10px 15px teal;
+}
+.nav-item .nav-link{
+  transition: 0.5s ;
+  color: black;
+}
+.nav-item .nav-link:hover{
+  border-radius: 5px;
+  background: #ffa500;
+  color: white;
+}
+.container12{
+  overflow: hidden;
+}
+.container12 img{
+
+  transition: all 1s;
+}
+.container12 img:hover{
+  transform: scale(1.5,1.5);
+}
+/*Home Section*/
+.carousel-inner a {
+  padding: 10px;
+  background: white;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 550;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.carousel-inner a:hover{
+  background: #ffa500;
+  color: white;
+}
+/*Booking Section*/
+book.submit{
+  transition: 0.5s;
+}
+.book .submit:hover{
+  width: 170px;
+}
+/*Footer Section*/
+.social-links i{
+  background: black;
+  color: white;
+  transition: 0.5s ease;
+}
+.social-links i:hover{
+  background:yellow;
+}
+/**/
+body{
+  background-image: url("images/services/bg2.webp");
+  background-size: cover;
+}
+

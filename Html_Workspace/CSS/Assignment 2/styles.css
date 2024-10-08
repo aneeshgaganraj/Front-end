@@ -1,0 +1,56 @@
+body{
+    margin-bottom: 2000px;
+    background-image: url("https://www.euroschoolindia.com/wp-content/uploads/2023/06/improving-attendance-in-primary-schools.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 100px;
+    padding: 20px;
+    color: orange;
+    border: 20px double red;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px black;
+    margin: 50px;
+    text-align: center;
+}
+.container{
+    background: linear-gradient(30deg,green,blue,black); 
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px black;   
+    width: 1100px;
+    height: 1100px;
+}
+.container input{
+    margin: 15px;
+    padding: 20px;
+    width: 50%;
+    border: 20px solid orange;
+    border-radius: 20px;
+}
+.button{
+    width: 40%;
+    font-size: 35px;
+}
+.container legend{
+    margin: 15px;
+    padding: 20px;
+    width: 50%;
+    border: 20px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+}
+.container select{
+    margin: 15px;
+    padding: 20px;
+    width: 50%;
+    border: 20px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+}

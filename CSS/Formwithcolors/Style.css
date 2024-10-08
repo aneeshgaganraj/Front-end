@@ -1,0 +1,63 @@
+body{
+    margin-bottom: 2000px;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+    color: grey;
+    border-radius: 50px;
+    border: 20px, double, red;
+    box-shadow: 10px 10px 15px black;
+    text-shadow: 5px 10px 5px orange;
+}
+.container{
+    background: linear-gradient(60deg, green, blue,pink);
+    width: 800px;
+    height: 800px;
+    border-radius: 50px;
+    box-shadow: 20px 0 20px black;
+}
+.container h2{
+    font-size: 100px;
+    text-align: center;
+    color: wheat;
+}
+.container input{
+    margin: 20px;
+    padding: 30px;
+    width: 80%;
+    border:20px solid orange ;
+    border-radius: 30px;
+}
+.container button{
+    width: 50%;
+    font-size: 25px;
+}
+.ellipse{
+    height: 300px;
+    width: 600px;
+    border: 10px solid grey;
+    border-radius: 50%;
+    background-image: url("D:/Front-End/Images/free.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    border: 10px solid green;
+    border-radius: 50%;
+    background-image: url("file:///D:/Front-End/Images/Trave.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.oval{
+    height: 600px;
+    width: 300px;
+    border: 10px solid blue;
+    border-radius: 50%;
+    background-image: url("file:///D:/Front-End/Images/images%20(1).jpeg");
+    background-size: cover;
+    background-position: center;
+}

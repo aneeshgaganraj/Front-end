@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body style = "margin-bottom: 2000px;">
+    <h1 style = "background-color: green; color: aqua; text-align: center; padding : 20px">Registration Form</h1> 
+    <form action = "" style="background-color: grey;width: 50%; color: white; font-size: 18px;">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="#fn">Enter First Name</label><br>
+            <input type="text" id = "fn" maxlength="20" name = "first name" autofocus><br>
+            <label for = "#ln">Enter the Last Name</label><br>
+            <input type = "text" id = "ln" size="40px" required><br><br>
+            <input type = "password" placeholder="Enter your Password" minlength="8" maxlength="16"><br><br>
+            <input type="email" placeholder="Enter Email"><br><br>
+            <label for="#age">Enter your Age</label>
+            <input type="number" id = "age" min="0" max="140"><br><br>
+            <label for="color">Select your Favorite color</label>
+            <input type="color" id = "color"><br><br>
+            <label for="#loan">Select your loan</label>
+            <input type="range" id = "loan"><br><br>
+            <label for="#resume">Upload Your Resume</label><br><br>
+            <input type="file" id = "resume"><br><br>
+            <label for="#docs">Upload Multiple files</label>
+            <input type="file" id = "docs" multiple><br>
+            <label >Select your Gender</label><br>
+            <input type="radio" name="gender" id="m" name = "gender" value = "Male" checked><br>
+            <label for="#m" >Male</label>
+            <input type="radio" name = "gender" id = "f" name = "gender" value = "female">
+            <label for="#f">Female</label>
+            <input type="radio" name = "gender" id = "o" value = "others">
+            <label for="#o">Others</label><br>
+            <label>Languages Known</label><br>
+            <label for="#kan">kannada</label>
+            <input type="checkbox" name="kannada" value="kannada" id = kan>
+            <label for="#Tel">Telugu</label>
+            <input type="checkbox" name = "Telugu" value = "Telugu" id = "Tel">
+            <label for="#eng">English</label>
+            <input type="checkbox" name="English" id="eng" value="English"><br><br>
+            <label for="#dob">Date of Birth</label>
+            <input type="date" name="date" id="dob" value = "Date"><br><br>
+            <label for="#Time">Date of Birth</label>
+            <input type="Time" name="time" id="Time" value = "Time"><br>
+            <label for="#date-time">date and time</label>
+            <input type="datetime-local" name="datetime" id="datetime" value = "Date Time">
+            <label for="#mon">Select your Month</label><br>
+            <input type="month" name="month" id="mon" value = "month">
+            <label for="#we">Select your Month</label><br>
+            <input type="week" name="Week" id="we" value = "Week"><br><br>
+            <input type="search" name="search" placeholder="search here"><br><br>
+            <select multiple><br>
+                <option value=" ">Select Your City</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Bombay">Bombay</option><br><br>
+            </select><br>
+            <label for="#food">Select your favorite food</label><br>
+            <select name="food" id="food">
+                <optgroup label="South India">
+                    <option value="Idly">Idly</option>
+                    <option value="Dosa">Dosa</option>
+                </optgroup>
+                <optgroup label="North India" >
+                    <option value="Rotti">Rotti</option>
+                    <option value="Biriyani">Biriryani</option>
+                </optgroup>
+                <optgroup label = "Deserts">
+                    <option value="Gulab Jammun">Gullab Jammun</option>
+                    <option value="DBC">DBC</option>
+                </optgroup>
+            </select><br><br>
+            <label for="#draw"></label>
+            <textarea name="" id="draw" rows="16" cols="50" placeholder="Describe About Yourself">
+    
+            </textarea><br><br>
+            <label for="#Int">Rate of Interest</label>
+            <input type="text" value="24%Pa" readonly><br>
+            <label for="#Int">Rate of Interest</label>
+            <input type="text" value = "24%PA" disabled><br>
+            <label for="#amt">Enter the Amount to be Withdrawn</label>
+            <input type="number" min="100" max="20000" step="100"><br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <button type="submit">Register</button>
+            <input type="image" src="https://www.awesomecuisine.com/wp-content/uploads/2009/06/Plain-Dosa.jpg" height="50px" width="100px">
+            </fieldset>
+    </form>
+    
+</body>
+</html>

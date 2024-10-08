@@ -1,0 +1,86 @@
+
+#yellow{
+    background-color: yellow;
+    padding: 20px;
+}
+#green{
+    background-color: green;
+    padding: 20px;
+}
+.general{
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 15px 10px 15px pink;
+    text-align: center;
+}
+.Box-1{
+    background-color:pink;
+}
+.Box-2{
+    background-color: orange;
+}
+.Box-3{
+    background-color: red;
+}
+input[type = "text"]{
+    background-color: yellow;
+}
+input[type = "password"]{
+    background-color: pink;
+}
+input[type = "submit"]{
+    background-color:green;
+    color: wheat;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+input[type = "reset"]{
+    background-color:darkred;
+    color: wheat;
+    transition: all 1s;
+}
+input ::placeholder{
+    color: blue;
+}
+input[type = "reset"]:hover{
+    background-color:olive;
+    color: yellow;
+    padding: 20px;
+    box-shadow: 10px 10px 8px black;
+    border-radius: 25px;
+}
+input[type = "text"]:focus{
+    background-color:olive;
+    color: yellow;
+    padding: 20px;
+    box-shadow: 10px 10px 8px black;
+    border-radius: 25px;
+    border: 5px solid red;
+}
+body{
+    margin-bottom: 2000px;
+}
+ul li{
+    font-size: 30px;
+    color: pink;
+    background-color: red;
+}
+ul li:first-child{
+    background-color: blue;
+    color: wheat;
+}
+ul li:last-child{
+    background-color: antiquewhite;
+    color: orange;
+}
+ul li:nth-child(2){
+    background-color: orangered;
+    color: black;
+}
+ol li:nth-of-type(odd){
+    background-color: blueviolet;
+}
+ol li:nth-of-type(even){
+    background-color: red;
+}

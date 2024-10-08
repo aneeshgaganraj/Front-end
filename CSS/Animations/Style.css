@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightsalmon;
+}
+.container{
+    height: 650px;
+    width: 500px;
+    box-shadow: 5px 10px 15px black;
+    border-radius: 20px;
+    margin: 100px auto;
+    overflow: hidden;
+    /**border: 10px solid gray;**/
+}
+.container img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+.container img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.5,1.5);
+}

@@ -1,0 +1,30 @@
+.general{
+    height: 500px;
+    width: 400px;
+    box-shadow: 5px 10px 10px black;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: 40px;
+    
+    text-align: center;
+}
+.Box-1{
+    background-color:olive;
+    position: absolute;
+    z-index: 4;
+}
+.Box-2{
+    background-color: black;
+    position: absolute;
+    left: 500px;
+}
+.Box-3{
+    background-color: royalblue;
+    position: absolute;
+    left: 1000px;
+}
+.Box-1 img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 400px;
+    width: 350px;
+    box-shadow: 5px 5px 10px black;
+    background-size: cover;
+    animation-name: moving;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes moving{
+    0%{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/907/544/small_2x/flat-design-background-with-abstract-pattern-free-vector.jpg");
+        top: 0px;
+        left: 0px;
+    }
+    10%{
+        background-image: url("https://www.shutterstock.com/shutterstock/photos/2273914407/display_1500/stock-vector-brutalist-abstract-geometric-shapes-and-grids-brutal-contemporary-figure-star-oval-spiral-flower-2273914407.jpg");
+        top: 0px;
+        left: 200px;
+    }
+    20%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsLiY8nDX3q-95uvIK_QoD1ve0KO9OxHbEiA&s");
+        top: 0px;
+        left: 400px;
+    }
+    30%{
+        background-image: url("https://cdn.mos.cms.futurecdn.net/6bxva8DmZvNj8kaVrQZZMP.jpg");
+        top: 0px;
+        left: 600px;
+    }
+    40%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbcZ2BNRCFqn2dm6tpbQmwwiDnwGzWUwDdFw&s");
+        top: 0px;
+        left: 800px;
+    }
+    50%{
+        background-image: url("https://img.freepik.com/free-photo/creative-light-bulb-abstract-glowing-blue-background-generative-ai_188544-8090.jpg");
+        top: 0px;
+        left: 1000px;
+    }
+    60%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ26tSrwrW0U7HBNuhK_73lBUhS_2eXVxi4A&s");
+        top: 0px;
+        right: 800px;
+    }
+    70%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYvgUNBrvTjZwqCBawBYyZcYzIoxDpMd18ETJWd0DiSq0NtL3IFuc9pomI1XdjEDQ-hb0&usqp=CAU");
+        top: 0px;
+        right: 600px;
+    }
+    80%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFADWfBfR2Z28XS0dH3mK0PxZh5MD_N_ODw&s");
+        top: 0px;
+        right: 400px;
+    }
+    90%{
+            background-image: url("https://blog.cgify.com/wp-content/uploads/2020/01/purpose-of-design.jpg");
+            top: 0px;
+            right: 200px;
+        }
+    100%{
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/106/276/small/geometric-black-and-gold-background-free-vector.jpg");
+            top: 0px;
+            left: 0px;
+}
+    
+}
+.container1{
+    margin: 20px;
+    height: 400px;
+    width: 350px;
+    box-shadow: 5px 5px 10px black;
+    background-size: cover;
+    animation-name: moving1;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes moving1{
+    0%{
+        background-color: crimson;
+        top: 0px;
+        left: 0px;
+    }
+    10%{
+        background-color: cornflowerblue;
+        top: 0px;
+        left: 200px;
+    }
+    20%{
+        background-color: chocolate;
+        top: 0px;
+        left: 400px;
+    }
+    30%{
+        background-color: chartreuse;
+        top: 0px;
+        left: 600px;
+    }
+    40%{
+        background-color: blueviolet;
+        top: 0px;
+        left: 800px;
+    }
+    50%{
+        background-color: burlywood;
+        top: 0px;
+        left: 1000px;
+    }
+    60%{
+        background-color: darkgoldenrod;
+        top: 0px;
+        right: 800px;
+    }
+    70%{
+        background-color: blue;
+        top: 0px;
+        right: 600px;
+    }
+    80%{
+        background-color: green;
+        top: 0px;
+        right: 400px;
+    }
+    90%{
+            background-color: aqua;
+            top: 0px;
+            right: 200px;
+        }
+    100%{
+            background-color: red;
+            top: 0px;
+            left: 0px;
+}
+}

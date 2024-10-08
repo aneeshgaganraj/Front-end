@@ -1,0 +1,21 @@
+body{
+    /*background-color: #315b80;
+    background-color: rgb(255, 201, 0);*/
+    background-color: hsl(260, 50%, 60%);
+}
+
+.general{
+    height: 300px;
+    width: 400px;
+    box-shadow: 5px 10px 5px black;
+    color: wheat;
+   
+    border-radius: 30px;
+    text-align: center;
+}
+.Box-1{
+    background:linear-gradient(30deg,black,green,yellow);
+}
+.Box-2{
+    background: radial-gradient(circle,pink,blue,orange);
+}

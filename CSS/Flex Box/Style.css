@@ -1,0 +1,37 @@
+.container{
+    height: 800px;
+    width: 900px;
+    border: 5px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px black;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.general{
+    width: 120px;
+    font-size: 30px;
+    color: wheat;
+    border: 5px solid pink;
+
+}
+.item1{
+    background-color: aqua;
+}
+.item2{
+    background-color: rebeccapurple;
+}
+.item3{
+    background-color: chartreuse;
+}
+.item4{
+    background-color: blue;
+}
+.item5{
+    background-color: cadetblue;
+}
+.item6{
+    background-color: brown;
+}

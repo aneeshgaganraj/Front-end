@@ -1,0 +1,17 @@
+h1{
+    color: rgb(255, 0,234);
+    text-align: justify;
+    text-decoration: underline double 10px aqua;
+    letter-spacing: 10px;
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-align-last: center;
+    text-transform: capitalize;
+    text-indent: 80px;
+    word-spacing: 10px;
+    line-height: 30px;
+}
